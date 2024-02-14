@@ -1,6 +1,7 @@
 
 
-=======================Route (ADD Multiple if there are ex BOOK)==============================
+=======================Route (ADD More if there are.. ex: BOOK)==============================
+
 $router->get('/authors', 'AuthorController@index');
 $router->post('/authors', 'AuthorController@store');
 $router->get('/authors/{author}', 'AuthorController@show');
@@ -10,6 +11,7 @@ $router->delete('/authors/{author}', 'AuthorController@destroy');
 
 
 ===================Controller (Create Multiple if there are ex: BookController)===============
+
 <?php
 namespace App\Http\Controllers;
 use App\Author;
