@@ -24,6 +24,12 @@
          ];
 
 
+========================= Register Config/Services.php to Bootstrap>app.php file ==================
+
+/**
+ * Registering config files
+ */
+$app->configure('services');
 
 
 -
