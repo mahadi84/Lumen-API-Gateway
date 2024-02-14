@@ -1,6 +1,6 @@
 
 
-==================ADD THESE (base_url) LINES .env file (change as per my need)===================
+==================ADD THESE LINES into .env file (change as per my need)===================
    
     AUTHORS_SERVICE_BASE_URL=localhost:8000
     AUTHORS_SERVICE_SECRET=
