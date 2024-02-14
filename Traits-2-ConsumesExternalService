@@ -1,5 +1,5 @@
 
-=====================have to install Guzzlehttp ==========================
+=====================before creat this train must have to install Guzzlehttp ==========================
 <?php
 namespace App\Traits;
 use GuzzleHttp\Client;
