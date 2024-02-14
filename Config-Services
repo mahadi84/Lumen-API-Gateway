@@ -1,5 +1,13 @@
 
-Create Config/Services.php
+
+==================ADD THESE (base_url) LINES .env file (change as per my need)===================
+    AUTHORS_SERVICE_BASE_URL=localhost:8000
+    AUTHORS_SERVICE_SECRET=
+    BOOKS_SERVICE_BASE_URL=localhost:8001
+    BOOKS_SERVICE_SECRET=
+
+
+==============Create Config/Services.php (and ADD/CHANGE Below lines as per my need)====================
 
 <?php
 return [
