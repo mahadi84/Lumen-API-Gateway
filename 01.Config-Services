@@ -11,17 +11,17 @@
 ==============Create Config/Services.php (and ADD/CHANGE Below lines as per my need)====================
 
 <?php
-return [
-          'authors' => [
-              'base_uri' => env('AUTHORS_SERVICE_BASE_URL'),
-              'secret' => env('AUTHORS_SERVICE_SECRET'),
-          ],
-      
-          'books' => [
-              'base_uri' => env('BOOKS_SERVICE_BASE_URL'),
-              'secret' => env('BOOKS_SERVICE_SECRET'),
-          ],
-      ];
+   return [
+             'authors' => [
+                 'base_uri' => env('AUTHORS_SERVICE_BASE_URL'),
+                 'secret' => env('AUTHORS_SERVICE_SECRET'),
+             ],
+         
+             'books' => [
+                 'base_uri' => env('BOOKS_SERVICE_BASE_URL'),
+                 'secret' => env('BOOKS_SERVICE_SECRET'),
+             ],
+         ];
 
 
 
