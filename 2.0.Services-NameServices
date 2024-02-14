@@ -1,9 +1,11 @@
-CREATE Services/AuthorService.php (Can add multiple)
+
+
+============CREATE Services/AuthorService.php (Can add multiple)==================
 
 <?php
 namespace App\Services;
-
 use App\Traits\ConsumesExternalService;
+
 class AuthorService{
     use ConsumesExternalService;
     /**
@@ -63,3 +65,8 @@ class AuthorService{
         return $this->performRequest('DELETE', "/authors/{$author}");
     }
 }
+
+
+
+
+-
