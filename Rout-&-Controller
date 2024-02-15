@@ -34,7 +34,7 @@ class AuthorController extends Controller{
      *
      * @return void
      */
-    public function __construct(AuthorService $authorService)    {
+    public function __construct(AuthorService $authorService){
         $this->authorService = $authorService;
     }
 
